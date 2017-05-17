@@ -1,0 +1,40 @@
+
+
+header h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.container {
+  width: 850px;
+}
+
+#carousel-example-generic {
+
+}
+
+footer {
+  background-color: grey;
+  padding: 60px;
+}
+
+footer ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+  margin: 15px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
