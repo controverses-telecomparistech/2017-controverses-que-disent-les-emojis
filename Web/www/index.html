@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>emoji</title>
+    <title>Emoji</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- My styles CSS -->
+    <link href="css/rubick_pres.css"rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- emoji font-->
@@ -25,18 +26,17 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body class="no-touch">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top  navbar-transparent" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html"><i class="em em-smiley"></i></a>
+                <a class="navbar-brand" href="index.html">
+                  <i class="em em-smile"></i>
+                  <i class="em em-jack_o_lantern"></i>
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -89,14 +89,15 @@
                         </div>
                     </div>
                 </div>
-                <a href="http://presentation.creative-tim.com/" data-scroll="true" data-id="#whoWeAre" class="scroll-arrow hidden-xs hidden-sm">
-                <i class="fa fa-angle-down"></i>
+                <a href="#" data-scroll="true" data-id="#introduction" class="scroll-arrow hidden-xs hidden-sm">
+                <i class="em em-open_mouth"></i>
+                <i class="em em-book"></i>
                 </a>
       </div>
       <!-- end of section header -->
 
     <!-- Introduction -->
-    <div class="section section-introduction">
+    <div class="section section-introduction" id="introduction">
       <div class="text-area">
         <div class="container">
             <div class="row">
@@ -107,7 +108,6 @@
                     </div>
                   </br>
                     <p class="large">
-                        Creative Tim is a startup that creates design tools that make the web development process faster and easier. We love the web and care deeply for how users interact with a digital product. We power businesses and individuals to create better looking web projects around the world.
                     </p>
                 </div>
             </div>
@@ -295,5 +295,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/rubick_pres.js"></script>
+
+    <!--   file for adding vertical points where we activate the elements animation   -->
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+
   </body>
 </html>
