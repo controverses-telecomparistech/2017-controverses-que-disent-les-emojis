@@ -1,59 +1,41 @@
-.separator-container .separator.line-separator:before, .separator-container .separator.line-separator:after {
-    display: block;
-    width: 40%;
-    content: " ";
-    margin-top: 14px;
-    border: 1px solid #c5a47e;
+nav .navbar-header a i.em-jack_o_lantern {
+  font-size: 30px;
+  display:none;
 }
 
-.separator-container .separator.line-separator:before {
-    float: left;
+nav .navbar-header a:hover i.em-jack_o_lantern {
+  font-size: 30px;
+  display:block;
 }
 
-.separator-container .separator.line-separator:after {
-    float: right;
+nav .navbar-header a i.em-smile {
+  font-size: 30px;
+  display: block;
 }
 
-.space-50{
-    height: 50px;
-    width: 100%;
-    display: block;
-    content: "";
+nav .navbar-header a:hover i.em-smile {
+  font-size: 30px;
+  display: none;
 }
 
-.wrapper .section .parallax > img {
+.section .parallax > img {
   width: 100%;
   min-width: 0;
   min-height: 0;
-}
-
-.section {
-    padding: 1.875em 0;
-    position: relative;
-    background-color: #FFFFFF;
 }
 
 .pattern-image {
     width: 100%;
     background-size: 100%;
 }
+
 .pattern-image:after{
   opacity: .2;
-/*                 background: #111; */
 }
 
 .section-header .separator {
     margin: 0em auto 2em;
     border: 1px
-}
-
-.section-header .container {
-    z-index: 3;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: block;
-    top: 0;
 }
 
 .section-header h1{
@@ -67,14 +49,34 @@
 .section-header h5{
   text-shadow: 0px 0px 11px rgba(0, 0, 0, 0.3);
 }
+
 .section-header .content{
-  position: relative;
   top: 42%;
-  transform: translateY(-50%);
-  color: white;
-  text-align: center;
-  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
 }
+
+a.scroll-arrow {
+  font-size: 70px;
+  width: 70px;
+  border:none;
+  bottom: 100px;
+}
+
+.scroll-arrow i.em-book {
+    display:none;
+}
+
+.scroll-arrow:hover i.em-book {
+  display: block;
+}
+
+.scroll-arrow i.em-open_mouth {
+  display: block;
+}
+
+.scroll-arrow:hover i.em-open_mouth {
+display: none;
+}
+
 
 .section-introduction .title {
   text-align: center;
