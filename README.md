@@ -7,8 +7,7 @@ We are a gorupe of 8 members who study on Emojis.
 
 Our group members are:
 
-Expertise scientifique & technique
-- [Camille Morin](https://github.com/camcamcamcamcamcam)
+Expertise scientifique & technique - [Camille Morin](https://github.com/camcamcamcamcamcam)
 Presse & médias
 - [Eliott Ifergan](https://github.com/eliottif)
 Politique & droit
