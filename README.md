@@ -7,20 +7,20 @@ We are a gorupe of 8 members who study on Emojis.
 
 Our group members are:
 
-Expertise scientifique & technique:
+Expertise scientifique & technique
 - [Camille Morin](https://github.com/camcamcamcamcamcam)
-Presse & médias:
+Presse & médias
 - [Eliott Ifergan](https://github.com/eliottif)
-Politique & droit:
+Politique & droit
 - [Louis Combaldieu](https://github.com/lcombaldieu)
-Société civile:
+Société civile
 - [Aziz Rachdi](https://github.com/Aziz-Rachdi)
-Entretiens:
+Entretiens
 - [Tom Mardon](https://github.com/tmardon)
 - [Jiwei Zhang](https://github.com/redtea0)
-Design Web:
+Design Web
 - [Shangyuan Zhang](https://github.com/ShangyuanZ)
-Intégration Web:
+Intégration Web
 - [Jin Xia](https://github.com/GabrielXia)
 
 
