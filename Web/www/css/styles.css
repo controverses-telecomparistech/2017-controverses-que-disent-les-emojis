@@ -18,6 +18,10 @@ nav .navbar-header a:hover i.em-smile {
   display: none;
 }
 
+nav {
+  cursor: url("../img/glass.png"), auto;
+}
+
 img {
 cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"),auto;
 }
@@ -26,7 +30,6 @@ cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"),auto;
   width: 100%;
   min-width: 0;
   min-height: 0;
-  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"),auto;
 }
 
 .pattern-image {
@@ -45,7 +48,7 @@ cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"),auto;
 
 .section-header h1{
   text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
-  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/meh.png"), auto;
+  cursor: url("../img/yellow.png"), auto;
 }
 
 .section-header .separator.line-separator:before, .section-header .separator.line-separator:after {
@@ -54,11 +57,11 @@ cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"),auto;
 
 .section-header h5{
   text-shadow: 0px 0px 11px rgba(0, 0, 0, 0.3);
-  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"),auto;
+  cursor: url("../img/love.png"),auto;
 }
 
 .section-header {
-  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
+  cursor: url("../img/red.png"),auto;
 }
 
 .section-header .content{
