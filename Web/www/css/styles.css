@@ -82,6 +82,10 @@ display: none;
   text-align: center;
 }
 
+.section-introduction .carousel-caption {
+  color: black;
+}
+
 .section-topic .title{
   text-align: center;
 }
